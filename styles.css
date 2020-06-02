@@ -283,3 +283,295 @@ color: #2a9d8f;
 }
 
 /* middle portion ends here */
+
+
+
+.lefthalf1 {
+  background-color: #e76f51;
+  width: 35%;
+  position: absolute;
+  left: 0px;
+  height: 500px;
+}
+.righthalf2 {
+  background-color: white;
+  width: 65%;
+  position: absolute;
+  right: 0px;
+  height: 500px;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+
+.lefthalf {
+  background-color:#e76f51;
+  color: white;
+  width: 40%;
+  position: absolute;
+  
+  left: 0px;
+  height: 100%;
+}
+
+.righthalf {
+  background-color: white;
+  color: #e76f51;
+  width: 60%;
+  position: absolute;
+  right: 0px;
+  height: 100%;
+}
+
+.card{
+
+  width: 83%;
+  height: 380px;
+  margin-top: 5%;
+}
+
+
+.leftimg{
+
+  width:400px;
+  height:230px;
+}
+
+
+@media only screen and (max-width: 600px) {
+/* card size for smaller screen */
+  .card{
+    width: 100%;
+    height: 570px;
+  }
+
+/* different split screen width */
+  
+.lefthalf {
+  background-color: #e76f51;
+  color: white;
+  width: 100%;
+  ;
+  
+  
+  height: 100%;
+}
+
+.righthalf {
+  background-color: white;
+  color:#e76f51;
+  width: 100%;
+  top: 65%;
+  text-align: center;
+  right: 0px;
+  height: 100%;
+}
+
+.lefthalf1 {
+
+  height: 650px;
+}
+
+.leftimg{
+
+  width:350px;
+  height:230px;
+}
+
+
+.learn{
+  font-size: 30px;
+  
+}
+
+.ds .de{
+  display: block;
+  font-family: sans-serif;
+}
+
+}
+
+.card h4{
+  text-align: left;
+ 
+}
+.ds{
+
+  display: inline;
+  line-height: 80%;
+}
+.de{
+  justify-content: left;
+  line-height: 80%;
+}
+
+.a{
+  line-height: 80%;
+}
+
+.c{
+  align-content: right;
+}
+
+.bottom2{
+  padding-top: 100px;
+}
+
+.vl {
+  border-left: 1px solid black;
+  z-index: 3;
+  height: 450px;
+  left: 20%;
+  position: absolute;
+  transform: rotate(15deg);
+  box-shadow: 5px 10px 10px 2px black;
+}
+
+.card1{
+height: 110px;
+width: 60%;
+background-color: #e76f51;
+position: relative;
+left: 24%;
+top: 50px;
+text-align: left;
+line-height: 0.8;
+
+
+}
+
+.card2{
+  height: 110px;
+  width: 50%;
+  background-color: #2a9d8f;
+  position: relative;
+  left: 21%;
+  top: 50px;
+  text-align: left;
+  line-height: 0.8;
+  
+  
+  
+  }
+
+  .card3{
+    height: 110px;
+    width: 40%;
+    background-color: #f4a261;
+    position: relative;
+    left: 17.6%;
+    top: 50px;
+    text-align: left;
+    line-height: 0.8;
+    
+    
+    }
+
+    .text-white {
+      color: #fff!important;
+      font-family: sans-serif;
+    }
+
+    .coin {
+
+      position: relative;
+      top: 80px;
+      justify-content: center;
+      
+        height: 230px;
+        width: 230px;
+    
+    
+    }
+
+     /* mobile version hided in desktop mode  */
+    .mobbot{
+      display: none;
+    }
+
+
+    /* orange part  */
+
+    .orange{
+      background-color: #f4a261;
+    }
+
+
+    .orange_right{
+      color: white;
+    }
+
+    /* right side of orange in big screen  */
+
+    @media only screen and (min-width: 600px){
+     
+     .orange_right{
+       text-align: end;
+       padding-right: 9vw;
+       padding-top: 5vw;
+       padding-bottom: 3vw;
+
+     }
+
+    }
+
+
+    /* ************************************************************ */
+    
+@media only screen and (max-width: 600px){
+
+   .card1 {
+
+    height: 180px;
+    line-height: 1.8;
+    width: 70%;
+  }
+  
+  .card2 {
+
+    height: 180px;
+    line-height: 1.8;
+    width: 70%;
+  }
+  
+  .card3 {
+
+    height: 180px;
+    line-height: 1.8;
+    width: 70%;
+  }
+
+  .vl{
+    display: none;
+  }
+
+  .coin{
+    height: 170px;
+    width: 170px;
+  }
+
+  .bottom{
+
+    display: none;
+  }
+
+  .mobbot{
+    display: block;
+  }
+}
